@@ -1,0 +1,304 @@
+{
+  "cases": [
+    {
+      "id": 1,
+      "title": "Homicídio no Motel Sunset",
+      "scene": "crime_scene_01.png",
+      "summary": "Um corpo foi encontrado em um quarto do Motel Sunset após relatos de gritos e um disparo.",
+      "description": "Você é chamado ao Motel Sunset às 02h17. A vítima, um empresário local, foi encontrada caída ao lado da cama, com um ferimento de bala no peito. A recepcionista afirma ter ouvido gritos e um disparo, seguidos de passos apressados no corredor. Há boatos de que a vítima mantinha um caso extraconjugal.",
+      "witnesses": [
+        "witness_01.png",
+        "witness_05.png"
+      ],
+      "suspects": [
+        "suspect_01.png",
+        "suspect_02.png"
+      ],
+      "evidence": [
+        "evidence_obj_01.png",
+        "evidence_weapon_01.png",
+        "evidence_doc_01.png"
+      ],
+      "real_culprit": "suspect_02.png"
+    },
+    {
+      "id": 2,
+      "title": "Assalto à Loja 24h",
+      "scene": "crime_scene_02.png",
+      "summary": "Uma loja de conveniência 24h foi assaltada durante a madrugada. O caixa foi esvaziado e o atendente ficou em choque.",
+      "description": "Às 03h40, a câmera de segurança da loja 24h registra um indivíduo armado entrando com capuz e máscara. Ele manda o atendente esvaziar o caixa e ameaça atirar caso alguém reaja. O assaltante foge a pé. O atendente diz reconhecer a voz de alguém que frequenta o bairro.",
+      "witnesses": [
+        "witness_11.png",
+        "witness_20.png"
+      ],
+      "suspects": [
+        "suspect_03.png",
+        "suspect_07.png"
+      ],
+      "evidence": [
+        "evidence_weapon_02.png",
+        "evidence_text_01.png",
+        "evidence_doc_02.png"
+      ],
+      "real_culprit": "suspect_03.png"
+    },
+    {
+      "id": 3,
+      "title": "Corpo na Estrada Federal",
+      "scene": "crime_scene_03.png",
+      "summary": "Um corpo foi encontrado à margem da estrada que liga Valley City ao distrito industrial. Sinais de atropelamento.",
+      "description": "Um caminhoneiro liga para o 911 após ver um corpo à beira da estrada. A vítima apresenta múltiplas fraturas e arranhões típicos de atropelamento. Marcas de frenagem são visíveis no asfalto. A perícia sugere que o veículo responsável não parou para prestar socorro.",
+      "witnesses": [
+        "witness_15.png",
+        "witness_21.png"
+      ],
+      "suspects": [
+        "suspect_10.png",
+        "suspect_12.png"
+      ],
+      "evidence": [
+        "evidence_obj_02.png",
+        "evidence_obj_03.png"
+      ],
+      "real_culprit": "suspect_12.png"
+    },
+    {
+      "id": 4,
+      "title": "Invasão ao Cofre da Galeria de Arte",
+      "scene": "case_scene_bg.png",
+      "summary": "Uma peça rara desapareceu do cofre da Galeria Central de Valley City durante a madrugada.",
+      "description": "A Galeria Central de Valley City reporta o sumiço de uma peça de arte avaliada em milhões de dólares. O cofre não apresenta sinais óbvios de arrombamento. Apenas três pessoas tinham acesso ao código: o diretor da galeria, o segurança do turno da noite e a curadora responsável pela exposição.",
+      "witnesses": [
+        "witness_18.png",
+        "witness_22.png"
+      ],
+      "suspects": [
+        "suspect_04.png",
+        "suspect_05.png",
+        "suspect_08.png"
+      ],
+      "evidence": [
+        "evidence_doc_01.png",
+        "evidence_doc_02.png",
+        "evidence_obj_03.png"
+      ],
+      "real_culprit": "suspect_08.png"
+    },
+    {
+      "id": 5,
+      "title": "Mistério na Floresta",
+      "scene": "crime_scene_02.png",
+      "summary": "Um corpo foi encontrado na trilha da floresta no final da tarde.",
+      "description": "Um jovem que caminhava pela trilha encontrou um corpo encoberto por folhas. A vítima apresentava sinais de luta. Há relatos de dois frequentadores que estavam por perto na hora do crime.",
+      "witnesses": [
+        "witness_12.png",
+        "witness_07.png"
+      ],
+      "suspects": [
+        "suspect_09.png",
+        "witness_07.png"
+      ],
+      "evidence": [
+        "evidence_obj_02.png",
+        "evidence_weapon_02.png",
+        "evidence_text_01.png"
+      ],
+      "real_culprit": "witness_07.png"
+    },
+    {
+      "id": 6,
+      "title": "Desaparecimento na Biblioteca Central",
+      "scene": "crime_scene_01.png",
+      "summary": "O bibliotecário notou o desaparecimento de uma valiosa obra antiga.",
+      "description": "Uma edição rara sumiu da Biblioteca Central de Valley City. As câmeras mostram duas pessoas saindo em horários suspeitos. A investigação aponta dois possíveis responsáveis, mas nenhuma prova direta.",
+      "witnesses": [
+        "witness_04.png",
+        "witness_09.png"
+      ],
+      "suspects": [
+        "suspect_04.png",
+        "suspect_11.png"
+      ],
+      "evidence": [
+        "evidence_doc_02.png",
+        "evidence_obj_03.png"
+      ],
+      "real_culprit": "suspect_11.png"
+    },
+    {
+      "id": 7,
+      "title": "Incêndio no Hotel Riviera",
+      "scene": "crime_scene_03.png",
+      "summary": "Um incêndio misterioso destruiu parte do Hotel Riviera durante a madrugada.",
+      "description": "Os bombeiros controlaram as chamas rapidamente, mas um quarto foi completamente incendiado. Nenhuma pessoa saiu ferida, porém foram encontradas evidências de que o fogo foi provocado. Duas testemunhas viram movimentação estranha no corredor pouco antes do incêndio.",
+      "witnesses": [
+        "witness_10.png",
+        "witness_13.png"
+      ],
+      "suspects": [
+        "suspect_06.png",
+        "witness_13.png"
+      ],
+      "evidence": [
+        "evidence_obj_01.png",
+        "evidence_weapon_01.png",
+        "evidence_doc_02.png"
+      ],
+      "real_culprit": "suspect_06.png"
+    },
+    {
+      "id": 8,
+      "title": "Roubo de Joias no Bairro Nobre",
+      "scene": "crime_scene_02.png",
+      "summary": "Joias valiosas desapareceram de uma mansão no bairro nobre de Valley City.",
+      "description": "Durante uma festa de gala, as joias da anfitriã desapareceram de seu cofre pessoal. A polícia identificou algumas pegadas e manchas de dedo. Três pessoas são suspeitas: um garçom, um empresário visitante e um segurança que tinha acesso ao cofre.",
+      "witnesses": [
+        "witness_14.png",
+        "witness_02.png"
+      ],
+      "suspects": [
+        "suspect_05.png",
+        "suspect_09.png",
+        "suspect_10.png"
+      ],
+      "evidence": [
+        "evidence_obj_03.png",
+        "evidence_weapon_01.png",
+        "evidence_text_01.png"
+      ],
+      "real_culprit": "suspect_10.png"
+    },
+    {
+      "id": 9,
+      "title": "Envenenamento no Restaurante Gourmet",
+      "scene": "crime_scene_03.png",
+      "summary": "Um cliente morreu após jantar em um restaurante renomado.",
+      "description": "Na noite de ontem, um cliente sofreu um colapso minutos após terminar a refeição. A autópsia revelou envenenamento. As suspeitas recaem sobre o chef, um garçom e o dono do estabelecimento, todos com motivos para prejudicar a vítima.",
+      "witnesses": [
+        "witness_03.png",
+        "witness_16.png"
+      ],
+      "suspects": [
+        "suspect_01.png",
+        "suspect_06.png",
+        "suspect_07.png"
+      ],
+      "evidence": [
+        "evidence_doc_01.png",
+        "evidence_obj_02.png",
+        "evidence_weapon_02.png"
+      ],
+      "real_culprit": "suspect_07.png"
+    }
+    ,
+    {
+      "id": 10,
+      "title": "Segredo no Porão da Mansão",
+      "scene": "crime_scene_01.png",
+      "summary": "Diários secretos descobertos em um porão revelam uma conspiração mortal.",
+      "description": "Durante uma reforma na mansão de uma família influente, os operários encontraram diários escondidos no porão. Os escritos revelavam um plano para eliminar o patriarca da família. As investigações apontam para um membro da casa e um funcionário dedicado.",
+      "witnesses": [
+        "witness_06.png",
+        "witness_17.png"
+      ],
+      "suspects": [
+        "suspect_02.png",
+        "witness_06.png"
+      ],
+      "evidence": [
+        "evidence_doc_01.png",
+        "evidence_doc_02.png",
+        "evidence_obj_01.png"
+      ],
+      "real_culprit": "witness_06.png"
+    },
+    {
+      "id": 11,
+      "title": "Golpe no Banco de Valley City",
+      "scene": "crime_scene_02.png",
+      "summary": "Hackers desviaram milhões de contas bancárias em Valley City.",
+      "description": "Um ataque cibernético sofisticado derrubou os sistemas de segurança do Banco Central de Valley City. Milhões foram desviados para contas fantasmas. As suspeitas recaem sobre um funcionário de TI e um consultor externo com acesso privilegiado às máquinas.",
+      "witnesses": [
+        "witness_08.png",
+        "witness_19.png"
+      ],
+      "suspects": [
+        "suspect_03.png",
+        "suspect_11.png"
+      ],
+      "evidence": [
+        "evidence_text_01.png",
+        "evidence_obj_02.png",
+        "evidence_weapon_01.png"
+      ],
+      "real_culprit": "suspect_11.png"
+    }
+    ,
+    {
+      "id": 12,
+      "title": "Mistério no Trem Noturno",
+      "scene": "crime_scene_03.png",
+      "summary": "Um passageiro foi encontrado morto em um compartimento de luxo no trem noturno.",
+      "description": "Durante a viagem noturna de Valley City para a capital, um empresário foi encontrado morto em seu compartimento. As câmeras registraram apenas três pessoas se aproximando: um condutor, um passageiro nervoso e uma funcionária do vagão-restaurante.",
+      "witnesses": [
+        "witness_02.png",
+        "witness_18.png"
+      ],
+      "suspects": [
+        "suspect_01.png",
+        "suspect_05.png",
+        "suspect_08.png"
+      ],
+      "evidence": [
+        "evidence_obj_01.png",
+        "evidence_weapon_02.png",
+        "evidence_doc_02.png"
+      ],
+      "real_culprit": "suspect_05.png"
+    },
+    {
+      "id": 13,
+      "title": "Conspiração no Laboratório",
+      "scene": "crime_scene_01.png",
+      "summary": "Produtos químicos desaparecem e deixam um pesquisador em estado grave.",
+      "description": "No laboratório de pesquisas biológicas de Valley City, uma substância altamente tóxica sumiu da área restrita. Um pesquisador foi encontrado desacordado após inalar vapores. As investigações apontam para um assistente ambicioso e um zelador que tinha acesso às chaves.",
+      "witnesses": [
+        "witness_09.png",
+        "witness_12.png"
+      ],
+      "suspects": [
+        "suspect_04.png",
+        "suspect_06.png",
+        "suspect_09.png"
+      ],
+      "evidence": [
+        "evidence_doc_01.png",
+        "evidence_obj_03.png",
+        "evidence_weapon_01.png"
+      ],
+      "real_culprit": "suspect_06.png"
+    },
+    {
+      "id": 14,
+      "title": "Crime no Teatro Municipal",
+      "scene": "case_scene_bg.png",
+      "summary": "O maestro foi encontrado morto minutos antes da apresentação.",
+      "description": "O Teatro Municipal estava lotado para a estreia da ópera quando o maestro foi encontrado no camarim, com um ferimento na cabeça. Três pessoas tinham acesso: o assistente do maestro, uma violinista recém-contratada e o diretor artístico.",
+      "witnesses": [
+        "witness_03.png",
+        "witness_14.png"
+      ],
+      "suspects": [
+        "suspect_02.png",
+        "suspect_07.png",
+        "suspect_11.png"
+      ],
+      "evidence": [
+        "evidence_obj_02.png",
+        "evidence_weapon_02.png",
+        "evidence_text_01.png"
+      ],
+      "real_culprit": "suspect_07.png"
+    }
+  ]
+}
