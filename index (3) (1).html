@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valley City – Police Investigations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div id="app">
+
+    <!-- 🖼 INTRODUÇÃO -->
+    <section id="introScreen" class="screen active">
+        <!-- a primeira imagem é a capa original; as demais serão trocadas via JS -->
+        <img id="introImage" class="full-bg" src="assets/capa_principal.png" alt="Introdução">
+        <div class="introOverlay">
+            <p>Clique ou aguarde alguns segundos para iniciar</p>
+        </div>
+    </section>
+
+    <!-- 🎬 CAPA INICIAL -->
+    <section id="startScreen" class="screen">
+        <img src="assets/capa_principal.png" class="full-bg">
+        <div class="centerBox fadeIn">
+            <h1 class="gameTitle">VALLEY CITY • CRIME UNIT</h1>
+            <button class="primaryBtn" onclick="goToAvatar()">INICIAR</button>
+        </div>
+    </section>
+
+    <!-- 👤 ESCOLHA DE AVATAR -->
+    <section id="avatarScreen" class="screen">
+        <div class="card glass fadeIn">
+            <h2>SEU OFICIAL</h2>
+
+            <label class="label">Seu nome:</label>
+            <input type="text" id="playerName" class="inputText" placeholder="Digite seu nome...">
+
+            <h3>Escolha seu avatar:</h3>
+            <div id="avatarList" class="avatar-list"></div>
+
+            <button class="primaryBtn" onclick="confirmAvatar()">Confirmar</button>
+        </div>
+    </section>
+
+    <!-- 🎖 CAPITÃO (briefing) -->
+    <section id="captainScreen" class="screen">
+        <img src="assets/capitao_office.png" class="full-bg">
+        <div class="dialogBox glass fadeIn">
+            <p id="captainText"></p>
+        </div>
+        <button class="primaryBtn bottomBtn" onclick="goToOffice()">Continuar</button>
+    </section>
+
+    <!-- 🏢 ESCRITÓRIO -->
+    <section id="officeScreen" class="screen">
+        <img src="assets/escritorio_detective.png" class="full-bg">
+
+        <div class="officeHUD glass fadeIn">
+
+            <img id="officeAvatar" class="avatarRound">
+
+            <div class="officeInfo">
+                <h2 id="officeName"></h2>
+
+                <div class="meters">
+                    <p>Prestígio</p>
+                    <div class="meterBar"><div id="prestBar"></div></div>
+
+                    <p>Moral</p>
+                    <div class="meterBar"><div id="moralBar"></div></div>
+
+                    <p>Reputação</p>
+                    <div class="meterBar"><div id="repBar"></div></div>
+                </div>
+            </div>
+
+            <div class="officeButtons">
+                <button class="primaryBtn" onclick="loadNextCase()">Próximo Caso</button>
+                <button class="secondaryBtn" onclick="openStats()">Estatísticas</button>
+                <button class="secondaryBtn" onclick="openPhone()">Telefone</button>
+                <button class="secondaryBtn" onclick="openPromotion()">Pedir Promoção</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 🗂 TELA DO CASO -->
+    <section id="caseScreen" class="screen">
+        <div class="card glass fadeIn">
+            <h2 id="caseTitle"></h2>
+            <img id="caseImage" class="caseImage">
+            <p id="caseSummary"></p>
+
+            <button class="primaryBtn" onclick="openInvestigation()">Iniciar Investigação</button>
+            <button class="secondaryBtn" onclick="goToOffice()">Voltar</button>
+        </div>
+    </section>
+
+    <!-- 🔎 TELA DA INVESTIGAÇÃO -->
+    <section id="investigationScreen" class="screen">
+        <div class="card glass fadeIn">
+
+            <h2 id="caseTitle2"></h2>
+            <p id="caseDescription"></p>
+
+            <h3>Testemunhas</h3>
+            <div id="witnesses" class="horizontalList"></div>
+
+            <h3>Suspeitos</h3>
+            <div id="suspects" class="horizontalList"></div>
+
+            <h3>Provas</h3>
+            <div id="evidence" class="horizontalList"></div>
+
+            <button class="secondaryBtn" onclick="returnToCase()">Voltar</button>
+        </div>
+    </section>
+
+    <!-- 📱 TELA DO TELEFONE -->
+    <section id="phoneScreen" class="screen">
+        <img src="assets/phone_bg.png" class="full-bg">
+        <div class="card phoneCard glass fadeIn">
+            <h2>Telefone</h2>
+            <div class="phoneOptions">
+                <button class="primaryBtn" onclick="callChief()">Ligar para o Chefe</button>
+                <button class="primaryBtn" onclick="requestWarrant()">Solicitar Mandado</button>
+                <button class="primaryBtn" onclick="callSuspect()">Ligar para Suspeito</button>
+                <button class="secondaryBtn" onclick="goToOffice()">Voltar</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 📊 TELA DE ESTATÍSTICAS -->
+    <section id="statsScreen" class="screen">
+        <img src="assets/stats_bg.png" class="full-bg">
+        <div class="card glass fadeIn statsCard">
+            <h2>Estatísticas</h2>
+            <p>Casos resolvidos: <span id="statSolved"></span></p>
+            <p>Erros: <span id="statErrors"></span></p>
+            <p>Prestígio: <span id="statPrestige"></span>%</p>
+            <p>Moral: <span id="statMoral"></span>%</p>
+            <p>Reputação: <span id="statReputation"></span>%</p>
+            <button class="secondaryBtn" onclick="goToOffice()">Voltar</button>
+        </div>
+    </section>
+
+    <!-- 🕵️ MODAL DE DETALHES -->
+    <div id="detailModal" class="modal">
+        <div class="modalContent glass">
+            <h3 id="detailTitle"></h3>
+            <img id="detailImage" class="detailImage">
+            <p id="detailDescription"></p>
+            <button class="secondaryBtn" onclick="closeDetail()">Fechar</button>
+        </div>
+    </div>
+
+    <!-- 🧪 TELA DE LAUDOS/FORENSE -->
+    <section id="forensicScreen" class="screen">
+        <img src="assets/forensic_bg.png" class="full-bg">
+        <div class="card glass fadeIn">
+            <img id="forensicImage" class="caseImage">
+            <button class="secondaryBtn" onclick="closeForensic()">Voltar</button>
+        </div>
+    </section>
+
+    <!-- 🗯️ SALA DE INTERROGATÓRIO -->
+    <section id="interrogationScreen" class="screen">
+        <img src="assets/interrogation_bg.png" class="full-bg">
+        <div class="card glass fadeIn">
+            <h2 id="interrogationTitle"></h2>
+            <img id="interrogationImage" class="caseImage">
+            <p id="interrogationDescription"></p>
+            <button class="secondaryBtn" onclick="closeInterrogation()">Voltar</button>
+        </div>
+    </section>
+
+</div>
+
+<script src="game.js"></script>
+</body>
+</html>
