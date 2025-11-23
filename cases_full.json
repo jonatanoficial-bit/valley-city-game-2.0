@@ -1,0 +1,1178 @@
+{
+  "cases": [
+    {
+      "id": 1,
+      "title": "Homicídio no Motel Sunset",
+      "scene": "crime_scene_01.png",
+      "summary": "Um corpo foi encontrado em um quarto do Motel Sunset após relatos de gritos e um disparo.",
+      "description": "Você é chamado ao Motel Sunset às 02h17. A vítima, um empresário local, foi encontrada caída ao lado da cama, com um ferimento de bala no peito. A recepcionista afirma ter ouvido gritos e um disparo, seguidos de passos apressados no corredor. Há boatos de que a vítima mantinha um caso extraconjugal.",
+      "witnesses": [
+        "witness_01.png",
+        "witness_05.png"
+      ],
+      "suspects": [
+        "suspect_01.png",
+        "suspect_02.png"
+      ],
+      "evidence": [
+        "evidence_obj_01.png",
+        "evidence_weapon_01.png",
+        "evidence_doc_01.png"
+      ],
+      "real_culprit": "suspect_02.png",
+      "level": "police"
+    },
+    {
+      "id": 2,
+      "title": "Assalto à Loja 24h",
+      "scene": "crime_scene_02.png",
+      "summary": "Uma loja de conveniência 24h foi assaltada durante a madrugada. O caixa foi esvaziado e o atendente ficou em choque.",
+      "description": "Às 03h40, a câmera de segurança da loja 24h registra um indivíduo armado entrando com capuz e máscara. Ele manda o atendente esvaziar o caixa e ameaça atirar caso alguém reaja. O assaltante foge a pé. O atendente diz reconhecer a voz de alguém que frequenta o bairro.",
+      "witnesses": [
+        "witness_11.png",
+        "witness_20.png"
+      ],
+      "suspects": [
+        "suspect_03.png",
+        "suspect_07.png"
+      ],
+      "evidence": [
+        "evidence_weapon_02.png",
+        "evidence_text_01.png",
+        "evidence_doc_02.png"
+      ],
+      "real_culprit": "suspect_03.png",
+      "level": "police"
+    },
+    {
+      "id": 3,
+      "title": "Corpo na Estrada Federal",
+      "scene": "crime_scene_03.png",
+      "summary": "Um corpo foi encontrado à margem da estrada que liga Valley City ao distrito industrial. Sinais de atropelamento.",
+      "description": "Um caminhoneiro liga para o 911 após ver um corpo à beira da estrada. A vítima apresenta múltiplas fraturas e arranhões típicos de atropelamento. Marcas de frenagem são visíveis no asfalto. A perícia sugere que o veículo responsável não parou para prestar socorro.",
+      "witnesses": [
+        "witness_15.png",
+        "witness_21.png"
+      ],
+      "suspects": [
+        "suspect_10.png",
+        "suspect_12.png"
+      ],
+      "evidence": [
+        "evidence_obj_02.png",
+        "evidence_obj_03.png"
+      ],
+      "real_culprit": "suspect_12.png",
+      "level": "police"
+    },
+    {
+      "id": 4,
+      "title": "Invasão ao Cofre da Galeria de Arte",
+      "scene": "case_scene_bg.png",
+      "summary": "Uma peça rara desapareceu do cofre da Galeria Central de Valley City durante a madrugada.",
+      "description": "A Galeria Central de Valley City reporta o sumiço de uma peça de arte avaliada em milhões de dólares. O cofre não apresenta sinais óbvios de arrombamento. Apenas três pessoas tinham acesso ao código: o diretor da galeria, o segurança do turno da noite e a curadora responsável pela exposição.",
+      "witnesses": [
+        "witness_18.png",
+        "witness_22.png"
+      ],
+      "suspects": [
+        "suspect_04.png",
+        "suspect_05.png",
+        "suspect_08.png"
+      ],
+      "evidence": [
+        "evidence_doc_01.png",
+        "evidence_doc_02.png",
+        "evidence_obj_03.png"
+      ],
+      "real_culprit": "suspect_08.png",
+      "level": "police"
+    },
+    {
+      "id": 5,
+      "title": "Mistério na Floresta",
+      "scene": "crime_scene_02.png",
+      "summary": "Um corpo foi encontrado na trilha da floresta no final da tarde.",
+      "description": "Um jovem que caminhava pela trilha encontrou um corpo encoberto por folhas. A vítima apresentava sinais de luta. Há relatos de dois frequentadores que estavam por perto na hora do crime.",
+      "witnesses": [
+        "witness_12.png",
+        "witness_07.png"
+      ],
+      "suspects": [
+        "suspect_09.png",
+        "witness_07.png"
+      ],
+      "evidence": [
+        "evidence_obj_02.png",
+        "evidence_weapon_02.png",
+        "evidence_text_01.png"
+      ],
+      "real_culprit": "witness_07.png",
+      "level": "police"
+    },
+    {
+      "id": 6,
+      "title": "Desaparecimento na Biblioteca Central",
+      "scene": "crime_scene_01.png",
+      "summary": "O bibliotecário notou o desaparecimento de uma valiosa obra antiga.",
+      "description": "Uma edição rara sumiu da Biblioteca Central de Valley City. As câmeras mostram duas pessoas saindo em horários suspeitos. A investigação aponta dois possíveis responsáveis, mas nenhuma prova direta.",
+      "witnesses": [
+        "witness_04.png",
+        "witness_09.png"
+      ],
+      "suspects": [
+        "suspect_04.png",
+        "suspect_11.png"
+      ],
+      "evidence": [
+        "evidence_doc_02.png",
+        "evidence_obj_03.png"
+      ],
+      "real_culprit": "suspect_11.png",
+      "level": "FBI"
+    },
+    {
+      "id": 7,
+      "title": "Incêndio no Hotel Riviera",
+      "scene": "crime_scene_03.png",
+      "summary": "Um incêndio misterioso destruiu parte do Hotel Riviera durante a madrugada.",
+      "description": "Os bombeiros controlaram as chamas rapidamente, mas um quarto foi completamente incendiado. Nenhuma pessoa saiu ferida, porém foram encontradas evidências de que o fogo foi provocado. Duas testemunhas viram movimentação estranha no corredor pouco antes do incêndio.",
+      "witnesses": [
+        "witness_10.png",
+        "witness_13.png"
+      ],
+      "suspects": [
+        "suspect_06.png",
+        "witness_13.png"
+      ],
+      "evidence": [
+        "evidence_obj_01.png",
+        "evidence_weapon_01.png",
+        "evidence_doc_02.png"
+      ],
+      "real_culprit": "suspect_06.png",
+      "level": "FBI"
+    },
+    {
+      "id": 8,
+      "title": "Roubo de Joias no Bairro Nobre",
+      "scene": "crime_scene_02.png",
+      "summary": "Joias valiosas desapareceram de uma mansão no bairro nobre de Valley City.",
+      "description": "Durante uma festa de gala, as joias da anfitriã desapareceram de seu cofre pessoal. A polícia identificou algumas pegadas e manchas de dedo. Três pessoas são suspeitas: um garçom, um empresário visitante e um segurança que tinha acesso ao cofre.",
+      "witnesses": [
+        "witness_14.png",
+        "witness_02.png"
+      ],
+      "suspects": [
+        "suspect_05.png",
+        "suspect_09.png",
+        "suspect_10.png"
+      ],
+      "evidence": [
+        "evidence_obj_03.png",
+        "evidence_weapon_01.png",
+        "evidence_text_01.png"
+      ],
+      "real_culprit": "suspect_10.png",
+      "level": "FBI"
+    },
+    {
+      "id": 9,
+      "title": "Envenenamento no Restaurante Gourmet",
+      "scene": "crime_scene_03.png",
+      "summary": "Um cliente morreu após jantar em um restaurante renomado.",
+      "description": "Na noite de ontem, um cliente sofreu um colapso minutos após terminar a refeição. A autópsia revelou envenenamento. As suspeitas recaem sobre o chef, um garçom e o dono do estabelecimento, todos com motivos para prejudicar a vítima.",
+      "witnesses": [
+        "witness_03.png",
+        "witness_16.png"
+      ],
+      "suspects": [
+        "suspect_01.png",
+        "suspect_06.png",
+        "suspect_07.png"
+      ],
+      "evidence": [
+        "evidence_doc_01.png",
+        "evidence_obj_02.png",
+        "evidence_weapon_02.png"
+      ],
+      "real_culprit": "suspect_07.png",
+      "level": "FBI"
+    },
+    {
+      "id": 10,
+      "title": "Segredo no Porão da Mansão",
+      "scene": "crime_scene_01.png",
+      "summary": "Diários secretos descobertos em um porão revelam uma conspiração mortal.",
+      "description": "Durante uma reforma na mansão de uma família influente, os operários encontraram diários escondidos no porão. Os escritos revelavam um plano para eliminar o patriarca da família. As investigações apontam para um membro da casa e um funcionário dedicado.",
+      "witnesses": [
+        "witness_06.png",
+        "witness_17.png"
+      ],
+      "suspects": [
+        "suspect_02.png",
+        "witness_06.png"
+      ],
+      "evidence": [
+        "evidence_doc_01.png",
+        "evidence_doc_02.png",
+        "evidence_obj_01.png"
+      ],
+      "real_culprit": "witness_06.png",
+      "level": "CIA"
+    },
+    {
+      "id": 11,
+      "title": "Golpe no Banco de Valley City",
+      "scene": "crime_scene_02.png",
+      "summary": "Hackers desviaram milhões de contas bancárias em Valley City.",
+      "description": "Um ataque cibernético sofisticado derrubou os sistemas de segurança do Banco Central de Valley City. Milhões foram desviados para contas fantasmas. As suspeitas recaem sobre um funcionário de TI e um consultor externo com acesso privilegiado às máquinas.",
+      "witnesses": [
+        "witness_08.png",
+        "witness_19.png"
+      ],
+      "suspects": [
+        "suspect_03.png",
+        "suspect_11.png"
+      ],
+      "evidence": [
+        "evidence_text_01.png",
+        "evidence_obj_02.png",
+        "evidence_weapon_01.png"
+      ],
+      "real_culprit": "suspect_11.png",
+      "level": "CIA"
+    },
+    {
+      "id": 12,
+      "title": "Mistério no Trem Noturno",
+      "scene": "crime_scene_03.png",
+      "summary": "Um passageiro foi encontrado morto em um compartimento de luxo no trem noturno.",
+      "description": "Durante a viagem noturna de Valley City para a capital, um empresário foi encontrado morto em seu compartimento. As câmeras registraram apenas três pessoas se aproximando: um condutor, um passageiro nervoso e uma funcionária do vagão-restaurante.",
+      "witnesses": [
+        "witness_02.png",
+        "witness_18.png"
+      ],
+      "suspects": [
+        "suspect_01.png",
+        "suspect_05.png",
+        "suspect_08.png"
+      ],
+      "evidence": [
+        "evidence_obj_01.png",
+        "evidence_weapon_02.png",
+        "evidence_doc_02.png"
+      ],
+      "real_culprit": "suspect_05.png",
+      "level": "CIA"
+    },
+    {
+      "id": 13,
+      "title": "Conspiração no Laboratório",
+      "scene": "crime_scene_01.png",
+      "summary": "Produtos químicos desaparecem e deixam um pesquisador em estado grave.",
+      "description": "No laboratório de pesquisas biológicas de Valley City, uma substância altamente tóxica sumiu da área restrita. Um pesquisador foi encontrado desacordado após inalar vapores. As investigações apontam para um assistente ambicioso e um zelador que tinha acesso às chaves.",
+      "witnesses": [
+        "witness_09.png",
+        "witness_12.png"
+      ],
+      "suspects": [
+        "suspect_04.png",
+        "suspect_06.png",
+        "suspect_09.png"
+      ],
+      "evidence": [
+        "evidence_doc_01.png",
+        "evidence_obj_03.png",
+        "evidence_weapon_01.png"
+      ],
+      "real_culprit": "suspect_06.png",
+      "level": "CIA"
+    },
+    {
+      "id": 14,
+      "title": "Crime no Teatro Municipal",
+      "scene": "case_scene_bg.png",
+      "summary": "O maestro foi encontrado morto minutos antes da apresentação.",
+      "description": "O Teatro Municipal estava lotado para a estreia da ópera quando o maestro foi encontrado no camarim, com um ferimento na cabeça. Três pessoas tinham acesso: o assistente do maestro, uma violinista recém-contratada e o diretor artístico.",
+      "witnesses": [
+        "witness_03.png",
+        "witness_14.png"
+      ],
+      "suspects": [
+        "suspect_02.png",
+        "suspect_07.png",
+        "suspect_11.png"
+      ],
+      "evidence": [
+        "evidence_obj_02.png",
+        "evidence_weapon_02.png",
+        "evidence_text_01.png"
+      ],
+      "real_culprit": "suspect_07.png",
+      "level": "CIA"
+    },
+    {
+      "id": 15,
+      "title": "Extorsão no Estaleiro de Valley",
+      "scene": "crime_scene_01.png",
+      "summary": "Denúncias apontam que empresários locais estão sendo extorquidos no estaleiro da cidade.",
+      "description": "Uma série de ameaças anônimas foi enviada a proprietários de barcos. Um deles decidiu colaborar e marcar um encontro com os chantagistas. A equipe de investigação intercepta a conversa e encontra o local cheio de capangas. Tudo indica que uma gangue se aproveita da falta de segurança no estaleiro para chantagear as vítimas.",
+      "witnesses": [
+        "witness_05.png",
+        "witness_13.png"
+      ],
+      "suspects": [
+        "suspect_06.png",
+        "suspect_09.png",
+        "suspect_10.png"
+      ],
+      "evidence": [
+        "evidence_obj_01.png",
+        "evidence_doc_02.png",
+        "evidence_weapon_01.png"
+      ],
+      "real_culprit": "suspect_09.png",
+      "level": "police"
+    },
+    {
+      "id": 16,
+      "title": "Contragolpe Digital no Banco Central",
+      "scene": "crime_scene_02.png",
+      "summary": "Hackers invadiram os servidores do Banco Central para desviar fundos de clientes.",
+      "description": "O setor de TI do banco identifica atividades suspeitas em um de seus servidores. As transações irregulares sugerem um golpe coordenado por pessoas com conhecimento interno. A investigação indica que dois analistas recém-contratados tinham acesso privilegiado ao sistema.",
+      "witnesses": [
+        "witness_08.png",
+        "witness_17.png"
+      ],
+      "suspects": [
+        "suspect_03.png",
+        "suspect_05.png"
+      ],
+      "evidence": [
+        "evidence_text_01.png",
+        "evidence_doc_01.png",
+        "evidence_obj_03.png"
+      ],
+      "real_culprit": "suspect_05.png",
+      "level": "FBI"
+    },
+    {
+      "id": 17,
+      "title": "Assassinato na Universidade de Medicina",
+      "scene": "crime_scene_03.png",
+      "summary": "O professor chefe do departamento de anatomia foi encontrado morto em seu laboratório.",
+      "description": "Durante a madrugada, um segurança ouve um barulho estranho vindo do laboratório de anatomia. Ao investigar, encontra o professor caído no chão com um objeto pesado ao lado. As câmeras mostram duas pessoas entrando no laboratório após o expediente: um aluno e um assistente de pesquisa.",
+      "witnesses": [
+        "witness_16.png",
+        "witness_04.png"
+      ],
+      "suspects": [
+        "suspect_01.png",
+        "suspect_08.png"
+      ],
+      "evidence": [
+        "evidence_weapon_02.png",
+        "evidence_obj_02.png",
+        "evidence_doc_01.png"
+      ],
+      "real_culprit": "suspect_01.png",
+      "level": "police"
+    },
+    {
+      "id": 18,
+      "title": "Sequestro da Executiva",
+      "scene": "case_scene_bg.png",
+      "summary": "Uma CEO desapareceu a caminho de uma conferência internacional.",
+      "description": "A executiva de uma empresa de tecnologia foi vista pela última vez entrando em seu carro oficial. A polícia encontra o veículo abandonado em uma estrada deserta. As pistas apontam para um sequestro planejado por alguém que conhecia sua rotina. Receitas suspeitas de depósitos surgem em uma conta estrangeira.",
+      "witnesses": [
+        "witness_02.png",
+        "witness_09.png",
+        "witness_20.png"
+      ],
+      "suspects": [
+        "suspect_04.png",
+        "suspect_07.png",
+        "suspect_10.png"
+      ],
+      "evidence": [
+        "evidence_text_01.png",
+        "evidence_obj_01.png",
+        "evidence_doc_02.png"
+      ],
+      "real_culprit": "suspect_04.png",
+      "level": "FBI"
+    },
+    {
+      "id": 19,
+      "title": "Vazamento Tóxico na Usina Química",
+      "scene": "crime_scene_01.png",
+      "summary": "Um vazamento de substância tóxica deixou vários funcionários hospitalizados.",
+      "description": "Alarmes da usina disparam indicando níveis perigosos de um produto químico. A inspeção mostra válvulas abertas manualmente. Duas pessoas tinham acesso ao setor no momento do vazamento. Rumores apontam para sabotagem por parte de funcionários descontentes.",
+      "witnesses": [
+        "witness_17.png",
+        "witness_06.png"
+      ],
+      "suspects": [
+        "suspect_05.png",
+        "suspect_11.png"
+      ],
+      "evidence": [
+        "evidence_obj_03.png",
+        "evidence_doc_01.png",
+        "evidence_weapon_01.png"
+      ],
+      "real_culprit": "suspect_11.png",
+      "level": "CIA"
+    },
+    {
+      "id": 20,
+      "title": "Golpe de Artefatos Históricos",
+      "scene": "case_scene_bg.png",
+      "summary": "Artefatos raros desapareceram de um museu durante uma reforma.",
+      "description": "Durante a reforma do museu municipal, um dos curadores percebe que vários artefatos sumiram. A segurança estava reduzida e registros de entrada foram adulterados. A investigação aponta que alguém utilizou documentos falsos para retirar as peças.",
+      "witnesses": [
+        "witness_10.png",
+        "witness_12.png"
+      ],
+      "suspects": [
+        "suspect_08.png",
+        "suspect_09.png",
+        "suspect_12.png"
+      ],
+      "evidence": [
+        "evidence_doc_02.png",
+        "evidence_obj_02.png",
+        "evidence_weapon_02.png"
+      ],
+      "real_culprit": "suspect_12.png",
+      "level": "FBI"
+    },
+    {
+      "id": 21,
+      "title": "Ameaça Bioterrorista no Aeroporto",
+      "scene": "crime_scene_03.png",
+      "summary": "Um pacote suspeito com material biológico foi descoberto no terminal internacional.",
+      "description": "Funcionários do raio-X detectam frascos com líquido desconhecido em uma bagagem. O terminal é esvaziado e a equipe de contenção é chamada. As etiquetas da mala apontam para dois passageiros que estavam no mesmo voo. Uma nota com reivindicações extremistas estava junto ao material.",
+      "witnesses": [
+        "witness_19.png",
+        "witness_22.png"
+      ],
+      "suspects": [
+        "suspect_06.png",
+        "suspect_02.png"
+      ],
+      "evidence": [
+        "evidence_obj_01.png",
+        "evidence_text_01.png",
+        "evidence_doc_01.png"
+      ],
+      "real_culprit": "suspect_06.png",
+      "level": "CIA"
+    },
+    {
+      "id": 22,
+      "title": "Fantasma no Hospital Abandonado",
+      "scene": "crime_scene_02.png",
+      "summary": "Jovens explorando um hospital abandonado encontram um cadáver recente.",
+      "description": "Um grupo de curiosos entra em um hospital fechado e se depara com um corpo no saguão. Há marcas de luta e objetos médicos espalhados. As investigações revelam que o local tem sido usado para encontros clandestinos.",
+      "witnesses": [
+        "witness_01.png",
+        "witness_13.png"
+      ],
+      "suspects": [
+        "suspect_03.png",
+        "suspect_07.png"
+      ],
+      "evidence": [
+        "evidence_obj_02.png",
+        "evidence_doc_02.png",
+        "evidence_obj_03.png"
+      ],
+      "real_culprit": "suspect_03.png",
+      "level": "police"
+    },
+    {
+      "id": 23,
+      "title": "Conspiração no Tribunal",
+      "scene": "case_scene_bg.png",
+      "summary": "Documentos desapareceram de um arquivo judicial em um caso de corrupção.",
+      "description": "Durante um julgamento importante, a promotoria percebe que evidências cruciais desapareceram. Câmeras de segurança mostram movimentação incomum no arquivo. Dois oficiais da justiça e um advogado estavam no local durante o ocorrido.",
+      "witnesses": [
+        "witness_08.png",
+        "witness_05.png"
+      ],
+      "suspects": [
+        "suspect_01.png",
+        "suspect_11.png",
+        "suspect_12.png"
+      ],
+      "evidence": [
+        "evidence_text_01.png",
+        "evidence_doc_01.png",
+        "evidence_weapon_02.png"
+      ],
+      "real_culprit": "suspect_11.png",
+      "level": "FBI"
+    },
+    {
+      "id": 24,
+      "title": "Explosão no Laboratório Secreto",
+      "scene": "crime_scene_03.png",
+      "summary": "Uma explosão destruiu um laboratório clandestino nos arredores da cidade.",
+      "description": "Moradores relatam um grande estrondo vindo de uma área industrial isolada. A polícia encontra destroços de um laboratório ilegal usado para fabricar substâncias proibidas. As investigações apontam para dois químicos envolvidos em atividades ilegais.",
+      "witnesses": [
+        "witness_14.png",
+        "witness_18.png"
+      ],
+      "suspects": [
+        "suspect_04.png",
+        "suspect_09.png"
+      ],
+      "evidence": [
+        "evidence_obj_03.png",
+        "evidence_weapon_01.png",
+        "evidence_doc_02.png"
+      ],
+      "real_culprit": "suspect_04.png",
+      "level": "CIA"
+    },
+    {
+      "id": 25,
+      "title": "Roubo do Diamante Azul",
+      "scene": "crime_scene_02.png",
+      "summary": "O diamante mais raro da coleção do museu desapareceu em plena exposição.",
+      "description": "Durante a noite de gala no museu, um apagão repentino permitiu que alguém trocasse a pedra preciosa por uma imitação. As fitas de segurança mostram três convidados com acesso à sala do tesouro.",
+      "witnesses": [
+        "witness_16.png",
+        "witness_21.png"
+      ],
+      "suspects": [
+        "suspect_02.png",
+        "suspect_05.png",
+        "suspect_08.png"
+      ],
+      "evidence": [
+        "evidence_obj_01.png",
+        "evidence_doc_02.png",
+        "evidence_weapon_01.png"
+      ],
+      "real_culprit": "suspect_08.png",
+      "level": "FBI"
+    },
+    {
+      "id": 26,
+      "title": "Atentado ao Prefeito",
+      "scene": "crime_scene_01.png",
+      "summary": "Um tiro quase atingiu o prefeito durante uma conferência de imprensa.",
+      "description": "Enquanto anunciava novas medidas de segurança, o prefeito é alvo de um atirador escondido em um prédio vizinho. A bala atinge o pódio e causa pânico. Três suspeitos com motivos políticos estavam próximos ao local.",
+      "witnesses": [
+        "witness_11.png",
+        "witness_04.png",
+        "witness_20.png"
+      ],
+      "suspects": [
+        "suspect_06.png",
+        "suspect_07.png",
+        "suspect_05.png"
+      ],
+      "evidence": [
+        "evidence_text_01.png",
+        "evidence_weapon_02.png",
+        "evidence_obj_02.png"
+      ],
+      "real_culprit": "suspect_07.png",
+      "level": "CIA"
+    },
+    {
+      "id": 27,
+      "title": "Corrupção na Câmara Municipal",
+      "scene": "case_scene_bg.png",
+      "summary": "Relatos de suborno e desvio de verba surgem no legislativo da cidade.",
+      "description": "Documentos vazados revelam pagamentos suspeitos a vereadores em troca de contratos públicos. Uma testemunha anônima entrega cópias de transferências e áudios comprometedores. Três políticos são citados nas investigações.",
+      "witnesses": [
+        "witness_09.png",
+        "witness_10.png"
+      ],
+      "suspects": [
+        "suspect_02.png",
+        "suspect_03.png",
+        "suspect_11.png"
+      ],
+      "evidence": [
+        "evidence_doc_01.png",
+        "evidence_obj_03.png",
+        "evidence_text_01.png"
+      ],
+      "real_culprit": "suspect_02.png",
+      "level": "FBI"
+    },
+    {
+      "id": 28,
+      "title": "Tráfico de Animais Exóticos",
+      "scene": "crime_scene_02.png",
+      "summary": "Animais silvestres desaparecem de reservas e surgem em mercados clandestinos.",
+      "description": "Guardas florestais relatam o desaparecimento de espécies protegidas. Uma operação encoberta revela que uma rede internacional de contrabandistas utiliza o porto da cidade para exportar animais. Dois suspeitos são conhecidos por atividades ilegais com fauna.",
+      "witnesses": [
+        "witness_06.png",
+        "witness_17.png"
+      ],
+      "suspects": [
+        "suspect_01.png",
+        "suspect_12.png"
+      ],
+      "evidence": [
+        "evidence_obj_02.png",
+        "evidence_doc_02.png",
+        "evidence_obj_01.png"
+      ],
+      "real_culprit": "suspect_12.png",
+      "level": "police"
+    },
+    {
+      "id": 29,
+      "title": "Homicídio no Festival de Música",
+      "scene": "crime_scene_03.png",
+      "summary": "Um artista foi encontrado morto nos bastidores durante um festival popular.",
+      "description": "O festival de música de Valley City atrai milhares de pessoas. Entre apresentações, um dos artistas some e é encontrado sem vida, com sinais de envenenamento. Três colegas de banda, envolvidos em desavenças recentes, tornam-se suspeitos.",
+      "witnesses": [
+        "witness_15.png",
+        "witness_19.png"
+      ],
+      "suspects": [
+        "suspect_03.png",
+        "suspect_09.png",
+        "suspect_10.png"
+      ],
+      "evidence": [
+        "evidence_weapon_01.png",
+        "evidence_obj_03.png",
+        "evidence_text_01.png"
+      ],
+      "real_culprit": "suspect_09.png",
+      "level": "police"
+    },
+    {
+      "id": 30,
+      "title": "Vazamento de Dados do Governo",
+      "scene": "crime_scene_01.png",
+      "summary": "Informações sigilosas de segurança nacional foram divulgadas na darknet.",
+      "description": "Um pacote de dados classificados aparece à venda em fóruns clandestinos. A investigação aponta para insiders com acesso a servidores de alto nível. Dois analistas de segurança e um consultor externo estão sob suspeita.",
+      "witnesses": [
+        "witness_22.png",
+        "witness_12.png"
+      ],
+      "suspects": [
+        "suspect_11.png",
+        "suspect_05.png"
+      ],
+      "evidence": [
+        "evidence_doc_02.png",
+        "evidence_text_01.png",
+        "evidence_obj_03.png"
+      ],
+      "real_culprit": "suspect_11.png",
+      "level": "CIA"
+    },
+    {
+      "id": 31,
+      "title": "Crime Ambiental na Usina de Energia",
+      "scene": "crime_scene_31.png",
+      "summary": "Um vazamento tóxico na usina de energia de Valley contaminou o rio, causando mortes de peixes e protestos da população.",
+      "description": "Você é chamado à usina de energia após sensores detectarem uma fuga de produtos químicos que atingiu o rio. Os manifestantes acusam a empresa de negligência, mas investigações iniciais mostram sinais de sabotagem. Funcionários falaram sobre ameaças de grupos ambientalistas e desentendimentos internos. Descubra se o vazamento foi acidental ou premeditado.",
+      "witnesses": [
+        "witness_03.png",
+        "witness_06.png",
+        "witness_02.png"
+      ],
+      "suspects": [
+        "suspect_03.png",
+        "suspect_04.png",
+        "suspect_05.png"
+      ],
+      "evidence": [
+        "evidence_obj_04.png",
+        "evidence_doc_05.png",
+        "evidence_weapon_02.png",
+        "evidence_obj_06.png"
+      ],
+      "real_culprit": "suspect_04.png",
+      "level": "police"
+    },
+    {
+      "id": 32,
+      "title": "Roubo ao Museu Histórico",
+      "scene": "crime_scene_32.png",
+      "summary": "Peças raras desapareceram do museu após um evento beneficente; o sistema de segurança foi desativado e há suspeita de colaboração interna.",
+      "description": "Na manhã seguinte a um grande baile de gala, o curador descobre que artefatos da nova exposição sumiram. As câmeras de segurança foram desligadas e o cofre foi aberto sem sinais de arrombamento. O diretor do museu hesita em cooperar, e há relatos de funcionários insatisfeitos e visitantes misteriosos. Recolha pistas para encontrar as peças roubadas.",
+      "witnesses": [
+        "witness_02.png",
+        "witness_04.png",
+        "witness_01.png"
+      ],
+      "suspects": [
+        "suspect_05.png",
+        "suspect_01.png",
+        "suspect_03.png"
+      ],
+      "evidence": [
+        "evidence_obj_07.png",
+        "evidence_doc_06.png",
+        "evidence_obj_01.png",
+        "evidence_weapon_03.png"
+      ],
+      "real_culprit": "suspect_05.png",
+      "level": "FBI"
+    },
+    {
+      "id": 33,
+      "title": "Sequestro do CEO de Valley Tech",
+      "scene": "crime_scene_33.png",
+      "summary": "O CEO da Valley Tech desapareceu após uma conferência; um pedido de resgate exige a entrega de protótipos sigilosos.",
+      "description": "Durante o trajeto para casa depois de apresentar um projeto revolucionário, o CEO de Valley Tech é sequestrado. Câmeras mostram um furgão seguindo seu carro. Pouco depois, a diretoria recebe uma mensagem exigindo tecnologia experimental em troca de sua vida. Há suspeitas de espionagem corporativa e traição interna. Reúna provas para descobrir o responsável.",
+      "witnesses": [
+        "witness_04.png",
+        "witness_03.png",
+        "witness_06.png"
+      ],
+      "suspects": [
+        "suspect_02.png",
+        "suspect_05.png",
+        "suspect_04.png"
+      ],
+      "evidence": [
+        "evidence_doc_02.png",
+        "evidence_obj_02.png",
+        "evidence_doc_07.png",
+        "evidence_weapon_04.png"
+      ],
+      "real_culprit": "suspect_05.png",
+      "level": "FBI"
+    },
+    {
+      "id": 34,
+      "title": "Incêndio Criminoso no Estádio",
+      "scene": "crime_scene_34.png",
+      "summary": "Um incêndio destruiu parte das arquibancadas durante um jogo lotado; investigações indicam uso de acelerante.",
+      "description": "A torcida estava em êxtase quando as chamas tomaram conta de um setor do estádio. O fogo se espalhou rápido, causando pânico e ferindo dezenas de torcedores. Testemunhas viram alguém fugindo momentos antes das chamas começarem. Suspeita-se de rivalidade entre torcidas e vingança pessoal. Colete indícios para identificar o incendiário.",
+      "witnesses": [
+        "witness_01.png",
+        "witness_05.png",
+        "witness_04.png"
+      ],
+      "suspects": [
+        "suspect_03.png",
+        "suspect_02.png",
+        "suspect_05.png"
+      ],
+      "evidence": [
+        "evidence_obj_03.png",
+        "evidence_obj_05.png",
+        "evidence_doc_03.png",
+        "evidence_weapon_05.png"
+      ],
+      "real_culprit": "suspect_03.png",
+      "level": "police"
+    },
+    {
+      "id": 35,
+      "title": "Fraude no Sistema de Transporte",
+      "scene": "crime_scene_35.png",
+      "summary": "Auditores descobriram desvio de verbas e contratos falsos no metrô; autoridades e empreiteiros estão sob suspeita.",
+      "description": "O orçamento para a expansão do metrô sumiu. Contratos com empresas inexistentes foram assinados e notas fiscais falsas pagas. Funcionários que denunciaram irregularidades receberam ameaças. Você deve investigar os escritórios do transporte público, rastrear os documentos contábeis e interrogá-los para desmontar o esquema de corrupção.",
+      "witnesses": [
+        "witness_02.png",
+        "witness_06.png",
+        "witness_05.png"
+      ],
+      "suspects": [
+        "suspect_04.png",
+        "suspect_01.png",
+        "suspect_05.png"
+      ],
+      "evidence": [
+        "evidence_doc_08.png",
+        "evidence_obj_07.png",
+        "evidence_doc_09.png",
+        "evidence_obj_08.png"
+      ],
+      "real_culprit": "suspect_01.png",
+      "level": "FBI"
+    },
+    {
+      "id": 36,
+      "title": "Contrabando de Artefatos Antigos",
+      "scene": "crime_scene_36.png",
+      "summary": "Relíquias pré-colombianas foram apreendidas no porto escondidas em contêineres; há suspeita de uma rede internacional.",
+      "description": "Agentes alfandegários encontram artefatos valiosos disfarçados como equipamentos industriais. Os documentos de embarque são falsificados, e especialistas indicam que peças semelhantes desapareceram de sítios arqueológicos. Conexões entre comerciantes de arte e acadêmicos indicam um grande esquema. Descubra quem lidera o contrabando e para onde os itens seriam enviados.",
+      "witnesses": [
+        "witness_03.png",
+        "witness_01.png",
+        "witness_06.png"
+      ],
+      "suspects": [
+        "suspect_05.png",
+        "suspect_02.png",
+        "suspect_03.png"
+      ],
+      "evidence": [
+        "evidence_obj_09.png",
+        "evidence_doc_10.png",
+        "evidence_obj_10.png",
+        "evidence_weapon_06.png"
+      ],
+      "real_culprit": "suspect_05.png",
+      "level": "CIA"
+    },
+    {
+      "id": 37,
+      "title": "Homicídio na Residência Oficial do Prefeito",
+      "scene": "crime_scene_37.png",
+      "summary": "O assessor pessoal do prefeito foi encontrado morto em seu gabinete durante um jantar político.",
+      "description": "A casa oficial do prefeito estava cheia de convidados quando gritos de socorro ecoaram. O assessor foi encontrado com facadas nas costas. As câmeras de segurança estavam desligadas na hora do crime, e rumores indicam chantagens e traições políticas. Entre festas e conspirações, descubra quem entrou no escritório e cometeu o homicídio.",
+      "witnesses": [
+        "witness_04.png",
+        "witness_05.png",
+        "witness_02.png"
+      ],
+      "suspects": [
+        "suspect_01.png",
+        "suspect_04.png",
+        "suspect_05.png"
+      ],
+      "evidence": [
+        "evidence_weapon_07.png",
+        "evidence_doc_11.png",
+        "evidence_obj_11.png",
+        "evidence_obj_12.png"
+      ],
+      "real_culprit": "suspect_04.png",
+      "level": "police"
+    },
+    {
+      "id": 38,
+      "title": "Rede de Tráfico Humano",
+      "scene": "crime_scene_38.png",
+      "summary": "Uma operação policial descobre um esquema de transporte de imigrantes ilegais escondidos em contêineres; envolve autoridades corrompidas.",
+      "description": "Uma blitz na estrada intercepta um caminhão com dezenas de pessoas em condições desumanas. As vítimas narram que pagaram a um recrutador e que seriam levadas a um depósito no porto. Há indícios de que a polícia portuária e políticos locais recebem propina para ignorar o movimento. Conecte as evidências para derrubar o líder da rede.",
+      "witnesses": [
+        "witness_03.png",
+        "witness_06.png",
+        "witness_01.png"
+      ],
+      "suspects": [
+        "suspect_05.png",
+        "suspect_02.png",
+        "suspect_04.png"
+      ],
+      "evidence": [
+        "evidence_doc_12.png",
+        "evidence_obj_13.png",
+        "evidence_obj_14.png",
+        "evidence_weapon_08.png"
+      ],
+      "real_culprit": "suspect_02.png",
+      "level": "FBI"
+    },
+    {
+      "id": 39,
+      "title": "Assassinato de um Jornalista Investigativo",
+      "scene": "crime_scene_39.png",
+      "summary": "Um repórter conhecido por denunciar corrupção é encontrado morto em seu apartamento; seus arquivos desapareceram.",
+      "description": "O jornalista estava trabalhando em uma matéria sobre poluição industrial quando sua vida foi interrompida. Vizinhos ouviram uma luta e viram alguém saindo às pressas. Seu computador e caderno de anotações sumiram. A lista de inimigos inclui empresários poderosos e políticos. Você terá que vasculhar o apartamento e entrevistar fontes para revelar o assassino.",
+      "witnesses": [
+        "witness_05.png",
+        "witness_02.png",
+        "witness_01.png"
+      ],
+      "suspects": [
+        "suspect_03.png",
+        "suspect_01.png",
+        "suspect_05.png"
+      ],
+      "evidence": [
+        "evidence_doc_13.png",
+        "evidence_obj_15.png",
+        "evidence_weapon_09.png",
+        "evidence_obj_16.png"
+      ],
+      "real_culprit": "suspect_03.png",
+      "level": "CIA"
+    },
+    {
+      "id": 40,
+      "title": "Envenenamento em Restaurante Famoso",
+      "scene": "crime_scene_40.png",
+      "summary": "Vários clientes de um restaurante de alta gastronomia passam mal e um morre após ingerir um prato contaminado.",
+      "description": "Durante a inauguração de um menu especial, os clientes começam a sentir náuseas e convulsões. A comida continha uma toxina rara. Investigações apontam para uma possível sabotagem: fornecedores rivais, um ex-funcionário demitido e até cozinheiros concorrentes estão na mira. Analise os ingredientes, interrogue os funcionários e encontre o culpado.",
+      "witnesses": [
+        "witness_01.png",
+        "witness_03.png",
+        "witness_05.png"
+      ],
+      "suspects": [
+        "suspect_02.png",
+        "suspect_04.png",
+        "suspect_01.png"
+      ],
+      "evidence": [
+        "evidence_obj_17.png",
+        "evidence_doc_14.png",
+        "evidence_weapon_10.png",
+        "evidence_obj_18.png"
+      ],
+      "real_culprit": "suspect_04.png",
+      "level": "police"
+    },
+    {
+      "id": 41,
+      "title": "Ataque ao Sistema de Dados da Prefeitura",
+      "scene": "crime_scene_41.png",
+      "summary": "Hackers invadiram os servidores municipais, roubaram dados de cidadãos e exigem resgate em criptomoedas.",
+      "description": "Ao acessar os sistemas da prefeitura, funcionários encontram mensagens de chantagem no lugar dos arquivos. A invasão comprometeu informações sensíveis, como cadastros fiscais. Investigações apontam vulnerabilidades deixadas por um técnico recém-demitido. Rastreie a origem dos ataques e descubra se alguém de dentro facilitou a invasão.",
+      "witnesses": [
+        "witness_06.png",
+        "witness_02.png",
+        "witness_04.png"
+      ],
+      "suspects": [
+        "suspect_05.png",
+        "suspect_03.png",
+        "suspect_01.png"
+      ],
+      "evidence": [
+        "evidence_doc_15.png",
+        "evidence_obj_19.png",
+        "evidence_weapon_11.png",
+        "evidence_obj_20.png"
+      ],
+      "real_culprit": "suspect_05.png",
+      "level": "FBI"
+    },
+    {
+      "id": 42,
+      "title": "Guerra de Gangues no Porto",
+      "scene": "crime_scene_42.png",
+      "summary": "Confronto armado entre facções rivais no porto deixa vários mortos e feridos; disputam o controle das docas.",
+      "description": "Em plena madrugada, tiros e explosões ecoam pelo porto. Duas gangues se enfrentam pelo domínio do contrabando. Funcionários das docas parecem saber de algo, mas têm medo de falar. Há rumores de que uma terceira organização provocou o confronto para tomar o território. Investigue quem planejou a emboscada e recolha provas antes que a guerra se espalhe.",
+      "witnesses": [
+        "witness_02.png",
+        "witness_05.png",
+        "witness_03.png"
+      ],
+      "suspects": [
+        "suspect_04.png",
+        "suspect_02.png",
+        "suspect_05.png"
+      ],
+      "evidence": [
+        "evidence_weapon_12.png",
+        "evidence_obj_21.png",
+        "evidence_doc_16.png",
+        "evidence_obj_22.png"
+      ],
+      "real_culprit": "suspect_04.png",
+      "level": "police"
+    },
+    {
+      "id": 43,
+      "title": "Roubo ao Banco Central",
+      "scene": "crime_scene_43.png",
+      "summary": "Um assalto cinematográfico ao Banco Central esvaziou um cofre; criminosos cavaram um túnel e hackearam o sistema de segurança.",
+      "description": "Em uma segunda-feira tranquila, os funcionários descobriram que o cofre principal estava vazio. Um túnel subterrâneo ligava um prédio abandonado ao cofre. Os sistemas de alarme foram desativados remotamente. Poucas pessoas conheciam os códigos de acesso, e há rumores de financiamento a grupos terroristas. Analisar os registros de acesso e identificar quem está por trás do golpe é a sua missão.",
+      "witnesses": [
+        "witness_04.png",
+        "witness_06.png",
+        "witness_01.png"
+      ],
+      "suspects": [
+        "suspect_03.png",
+        "suspect_05.png",
+        "suspect_02.png"
+      ],
+      "evidence": [
+        "evidence_doc_17.png",
+        "evidence_obj_23.png",
+        "evidence_weapon_13.png",
+        "evidence_obj_24.png"
+      ],
+      "real_culprit": "suspect_03.png",
+      "level": "FBI"
+    },
+    {
+      "id": 44,
+      "title": "Extorsão de Influenciadores Digitais",
+      "scene": "crime_scene_44.png",
+      "summary": "Influenciadores famosos recebem ameaças para pagar quantias altas ou ter suas mensagens pessoais divulgadas.",
+      "description": "Mensagens anônimas enviadas a influenciadores exigem dinheiro em troca de não divulgar conversas e fotos privadas. A origem dos vazamentos parece ser a empresa de gestão de mídia que todos usam. Um ex-funcionário demitido recentemente foi visto rondando a sede. Analise os computadores da empresa e descubra quem está chantageando as celebridades virtuais.",
+      "witnesses": [
+        "witness_05.png",
+        "witness_03.png",
+        "witness_04.png"
+      ],
+      "suspects": [
+        "suspect_01.png",
+        "suspect_02.png",
+        "suspect_05.png"
+      ],
+      "evidence": [
+        "evidence_doc_18.png",
+        "evidence_obj_25.png",
+        "evidence_weapon_14.png",
+        "evidence_obj_26.png"
+      ],
+      "real_culprit": "suspect_02.png",
+      "level": "police"
+    },
+    {
+      "id": 45,
+      "title": "Espionagem Governamental na Universidade",
+      "scene": "crime_scene_45.png",
+      "summary": "Laboratórios universitários têm equipamentos saboteados e dados de pesquisa confidenciais vazados; acredita-se em espionagem estatal.",
+      "description": "Pesquisadores da universidade descobriram que seus experimentos foram sabotados. Ao investigar, notaram acessos não autorizados aos servidores e cabos danificados. Um professor visitante de outro país demonstrou interesse excessivo nos projetos. O governo teme que tecnologia sensível seja roubada. Rastreiem as câmeras e dispositivos para identificar o espião.",
+      "witnesses": [
+        "witness_01.png",
+        "witness_04.png",
+        "witness_06.png"
+      ],
+      "suspects": [
+        "suspect_05.png",
+        "suspect_03.png",
+        "suspect_01.png"
+      ],
+      "evidence": [
+        "evidence_doc_19.png",
+        "evidence_obj_27.png",
+        "evidence_weapon_15.png",
+        "evidence_obj_28.png"
+      ],
+      "real_culprit": "suspect_05.png",
+      "level": "CIA"
+    },
+    {
+      "id": 46,
+      "title": "Desaparecimento de Crianças",
+      "scene": "crime_scene_46.png",
+      "summary": "Crianças de diferentes bairros desaparecem sem deixar rastros; vizinhos relatam uma van branca e símbolos estranhos perto das escolas.",
+      "description": "Quatro crianças desapareceram de suas casas durante a noite. As famílias receberam telefonemas ameaçadores dizendo para não procurar a polícia. Pichações com símbolos misteriosos apareceram perto das escolas. Há rumores de um grupo que vende crianças para adoções ilegais. Investigue as pistas e resgate as crianças antes que seja tarde demais.",
+      "witnesses": [
+        "witness_02.png",
+        "witness_05.png",
+        "witness_03.png"
+      ],
+      "suspects": [
+        "suspect_04.png",
+        "suspect_02.png",
+        "suspect_05.png"
+      ],
+      "evidence": [
+        "evidence_doc_20.png",
+        "evidence_obj_29.png",
+        "evidence_weapon_16.png",
+        "evidence_obj_30.png"
+      ],
+      "real_culprit": "suspect_04.png",
+      "level": "police"
+    },
+    {
+      "id": 47,
+      "title": "Derramamento de Produtos Tóxicos",
+      "scene": "crime_scene_47.png",
+      "summary": "Um caminhão com produtos químicos capotou perto de uma fazenda, contaminando o solo e deixando moradores doentes; há suspeita de sabotagem.",
+      "description": "O motorista afirma que os freios falharam numa descida. A empresa de transporte recebeu ameaças após uma disputa com ambientalistas. O proprietário da fazenda recentemente recusou vender sua terra a uma incorporadora. Investigue se alguém manipulou o caminhão ou se foi apenas um acidente, rastreando peças quebradas e analisando as ameaças.",
+      "witnesses": [
+        "witness_06.png",
+        "witness_03.png",
+        "witness_02.png"
+      ],
+      "suspects": [
+        "suspect_02.png",
+        "suspect_05.png",
+        "suspect_01.png"
+      ],
+      "evidence": [
+        "evidence_doc_21.png",
+        "evidence_obj_31.png",
+        "evidence_weapon_17.png",
+        "evidence_obj_32.png"
+      ],
+      "real_culprit": "suspect_02.png",
+      "level": "CIA"
+    },
+    {
+      "id": 48,
+      "title": "Conspiração para Assassinar o Governador",
+      "scene": "crime_scene_48.png",
+      "summary": "Um informante revelou um plano para matar o governador durante um comício; as credenciais dos seguranças foram clonadas.",
+      "description": "Agentes de inteligência interceptam mensagens entre extremistas planejando um ataque ao governador em um comício. Cra-chás falsos e armas foram encontrados em um depósito. Um membro da equipe de segurança age de forma estranha. Você deve descobrir quem está por trás da conspiração e impedir o atentado.",
+      "witnesses": [
+        "witness_04.png",
+        "witness_01.png",
+        "witness_05.png"
+      ],
+      "suspects": [
+        "suspect_03.png",
+        "suspect_04.png",
+        "suspect_05.png"
+      ],
+      "evidence": [
+        "evidence_doc_22.png",
+        "evidence_obj_33.png",
+        "evidence_weapon_18.png",
+        "evidence_obj_34.png"
+      ],
+      "real_culprit": "suspect_03.png",
+      "level": "CIA"
+    },
+    {
+      "id": 49,
+      "title": "Manipulação de Resultados Esportivos",
+      "scene": "crime_scene_49.png",
+      "summary": "Jogos do campeonato de futebol estão sendo manipulados por um esquema de apostas ilegais envolvendo atletas e árbitros.",
+      "description": "Estranhos resultados em partidas decisivas chamaram a atenção. Árbitros tomaram decisões polêmicas e jogadores acusados de fingirem lesões receberam depósitos suspeitos. Amostras de doping desapareceram do laboratório antidoping. Há rumores de uma quadrilha agindo nos bastidores. Siga o dinheiro e as pistas para desmantelar o esquema.",
+      "witnesses": [
+        "witness_02.png",
+        "witness_06.png",
+        "witness_04.png"
+      ],
+      "suspects": [
+        "suspect_01.png",
+        "suspect_05.png",
+        "suspect_03.png"
+      ],
+      "evidence": [
+        "evidence_doc_23.png",
+        "evidence_obj_35.png",
+        "evidence_weapon_19.png",
+        "evidence_obj_36.png"
+      ],
+      "real_culprit": "suspect_01.png",
+      "level": "FBI"
+    },
+    {
+      "id": 50,
+      "title": "Bioterrorismo em Laboratório Farmacêutico",
+      "scene": "crime_scene_50.png",
+      "summary": "Frascos de um patógeno experimental desapareceram de um laboratório; há risco de ataque biológico.",
+      "description": "Em um laboratório de alta segurança, um inventário revelou que amostras de um vírus em teste não estão mais no cofre. Logins mostram acessos fora do horário de expediente e um pesquisador com ideias extremistas desapareceu. Investigue as câmeras, registros de acesso e interrogue os colegas para recuperar as amostras e evitar um desastre.",
+      "witnesses": [
+        "witness_05.png",
+        "witness_03.png",
+        "witness_06.png"
+      ],
+      "suspects": [
+        "suspect_04.png",
+        "suspect_02.png",
+        "suspect_05.png"
+      ],
+      "evidence": [
+        "evidence_doc_24.png",
+        "evidence_obj_37.png",
+        "evidence_weapon_20.png",
+        "evidence_obj_38.png"
+      ],
+      "real_culprit": "suspect_05.png",
+      "level": "CIA"
+    }
+  ]
+}
